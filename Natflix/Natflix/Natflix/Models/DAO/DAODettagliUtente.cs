@@ -1,9 +1,16 @@
-﻿using Utility;
+﻿using Natflix.Models.Classi_Oggetto;
+using Utility;
 
 namespace Natflix.Models.DAO
 {
     public class DAODettagliUtente : IDAO
     {
+        private Database db;
+        private static DAODettagliUtente instance = null;
+        private DAODettagliUtente()
+        {
+            db = new Database("Netflix");
+        }
         public bool Delete(int id)
         {
             throw new NotImplementedException();

@@ -1,4 +1,6 @@
 ﻿using Utility;
+using System.Data.SqlClient;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Natflix.Models.DAO
 {
@@ -6,11 +8,11 @@ namespace Natflix.Models.DAO
     {
         private Database db;
         private static DAODettagliFilm instance = null;
-
-        private DAODettagliFilm()
+        private DAODettagliFilm() 
         {
-            db = new Database("Negozi");
+        db= new Database("Netflix");
         }
+       
 
         public bool Delete(int id)
         {

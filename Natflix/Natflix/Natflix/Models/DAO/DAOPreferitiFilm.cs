@@ -4,6 +4,12 @@ namespace Natflix.Models.DAO
 {
     public class DAOPreferitiFilm : IDAO
     {
+        private Database db;
+        private static DAOPreferitiFilm instance = null;
+        private DAOPreferitiFilm()
+        {
+            db = new Database("Netflix");
+        }
         public bool Delete(int id)
         {
             throw new NotImplementedException();
