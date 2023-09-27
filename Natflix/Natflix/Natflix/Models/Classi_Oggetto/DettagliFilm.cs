@@ -1,19 +1,19 @@
 ﻿using Utility;
-namespace Natflix.Models
+namespace Natflix.Models.Classi_Oggetto
 {
-    public class DettagliFilm:Entity
+    public class DettagliFilm : Entity
     {
-      
+
 
         public int Id { get; set; }
-        public string Descrizione {  get; set; }
-        public string URLVideo {  get; set; }
-        public string AttoreProtagonista {  get; set; }
+        public string Descrizione { get; set; }
+        public string URLVideo { get; set; }
+        public string AttoreProtagonista { get; set; }
         public Film IDFilm { get; set; }
 
         public DettagliFilm(int id, string descrizione,
-                            string uRLVideo, 
-                            string attoreProtagonista, Film iDFilm):base(id)
+                            string uRLVideo,
+                            string attoreProtagonista, Film iDFilm) : base(id)
         {
             Id = id;
             Descrizione = descrizione;

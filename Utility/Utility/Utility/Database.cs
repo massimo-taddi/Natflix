@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Utility
 {
-    internal class Database
+    public class Database
     {
         //è un campo di tipo sqlconnection che verrà usato per 
         //il collegamento di visual al db

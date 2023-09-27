@@ -1,19 +1,19 @@
 ﻿using Utility;
 
-namespace Natflix.Models
+namespace Natflix.Models.Classi_Oggetto
 {
-    public class DettagliUtente:Entity
+    public class DettagliUtente : Entity
     {
         public int Id { get; set; }
         public DettagliUtente() { }
 
-   
+
         public string Nome { get; set; }
         public string Cognome { get; set; }
 
         public DateTime DataNascita { get; set; }
         public string Indirizzo { get; set; }
-        public int NumeroTelefono {  get; set; }
+        public int NumeroTelefono { get; set; }
 
         public int IdUtenti { get; set; }
 
@@ -21,7 +21,7 @@ namespace Natflix.Models
 
         public DettagliUtente(int id, string nome, string cognome,
                               DateTime dataNascita, string indirizzo,
-                              int numeroTelefono, int idUtenti, Utenti utenti):base (id)
+                              int numeroTelefono, int idUtenti, Utenti utenti) : base(id)
         {
             Id = id;
             Nome = nome;
@@ -36,4 +36,3 @@ namespace Natflix.Models
 
     }
 }
-    
