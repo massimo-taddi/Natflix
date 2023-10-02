@@ -1,9 +1,9 @@
 ﻿using Utility;
-namespace Natflix.Models.Classi_Oggetto
+namespace Natflix.Models.Classi_Oggetto.Film
 {
     public class Film : Entity
     {
-        public Film() { }   
+        public Film() { }
         public int Id { get; set; }
         public string Titolo { get; set; }
         public string Genere { get; set; }

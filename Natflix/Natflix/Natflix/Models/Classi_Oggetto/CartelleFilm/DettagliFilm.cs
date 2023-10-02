@@ -1,5 +1,5 @@
 ﻿using Utility;
-namespace Natflix.Models.Classi_Oggetto
+namespace Natflix.Models.Classi_Oggetto.Film.Film
 {
     public class DettagliFilm : Entity
     {

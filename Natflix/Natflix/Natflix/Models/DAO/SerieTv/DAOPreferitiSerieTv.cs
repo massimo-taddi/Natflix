@@ -1,19 +1,24 @@
 ﻿using Utility;
-using System.Data.SqlClient;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Natflix.Models.DAO
+namespace Natflix.Models.DAO.SerieTv
 {
-    public class DAODettagliFilm : IDAO
+    public class DAOPreferitiSerieTv : IDAO
     {
         private Database db;
-        private static DAODettagliFilm instance = null;
-        private DAODettagliFilm() 
+        private static DAOPreferitiSerieTv instance = null;
+        private DAOPreferitiSerieTv()
         {
-        db= new Database("Netflix");
+            db = new Database("Netflix");
         }
-       
+        public static DAOPreferitiSerieTv getInstance()
+        {
 
+            if (instance == null)
+            {
+                return instance = new DAOPreferitiSerieTv();
+            }
+            return instance;
+        }
         public bool Delete(int id)
         {
             throw new NotImplementedException();

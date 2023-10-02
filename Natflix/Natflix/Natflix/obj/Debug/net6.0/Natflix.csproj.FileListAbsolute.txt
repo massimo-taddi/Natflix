@@ -1,0 +1,8 @@
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.csproj.AssemblyReference.cache
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.AssemblyInfoInputs.cache
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.AssemblyInfo.cs
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.csproj.CoreCompileInputs.cache
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.RazorAssemblyInfo.cache
+C:\Users\Drako\Documents\GitHub\Natflix\Natflix\Natflix\Natflix\obj\Debug\net6.0\Natflix.RazorAssemblyInfo.cs

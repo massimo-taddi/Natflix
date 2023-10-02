@@ -1,14 +1,23 @@
 ﻿using Utility;
 
-namespace Natflix.Models.DAO
+namespace Natflix.Models.DAO.SerieTv
 {
-    public class DAOFilm : IDAO
+    public class DAOSerieTv : IDAO
     {
         private Database db;
-        private static DAOFilm instance = null;
-        private DAOFilm()
+        private static DAOSerieTv instance = null;
+        private DAOSerieTv()
         {
             db = new Database("Netflix");
+        }
+        public static DAOSerieTv getInstance()
+        {
+
+            if (instance == null)
+            {
+                return instance = new DAOSerieTv();
+            }
+            return instance;
         }
         public bool Delete(int id)
         {

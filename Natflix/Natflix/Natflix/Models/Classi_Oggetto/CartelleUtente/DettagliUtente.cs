@@ -1,6 +1,6 @@
 ﻿using Utility;
 
-namespace Natflix.Models.Classi_Oggetto
+namespace Natflix.Models.Classi_Oggetto.Utente
 {
     public class DettagliUtente : Entity
     {
